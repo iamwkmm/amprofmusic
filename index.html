@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AmProfMusic - Tienda de Música</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+           <a href="#"> <img src="img/logo.png" alt="AmProfMusic"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#store">Tienda Física</a></li>
+                <li><a href="#catalog">Catálogo</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Bienvenidos a AmProMusic</h1>
+        <p>Profesionales del sonido, con más de 20 años de trayectoria</p>
+    </section>
+
+    <section class="store" id="store">
+        <h2 class="titulo-store">Nuestra Tienda Física</h2>
+        <div class="store-content">
+            <div class="store-text">
+                <p>Ubicados en la ciudad de Los Ángeles, en calle Colón 681, contamos con gran variedad de productos al alcance de tus manos. Los invitamos a visitar nuestras instalaciones.</p>
+            </div>
+            <div class="store-slider">
+                <div class="slider-container">
+                    <img src="img/slider/1.jpg" alt="Vista de tienda 1">
+                    <img src="img/slider/2.jpg" alt="Vista de tienda 2">
+                    <img src="img/slider/3.jpg" alt="Vista de tienda 3">
+                </div>
+                <button class="prev">&#8249;</button>
+                <button class="next">&#8250;</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="brands" id="brands">
+        <h2>Nuestras Marcas</h2>
+        <div class="brand-logos">
+            <img src="img/marcas/behringer.jpg" alt="Behringer">
+            <img src="img/marcas/fender.jpg" alt="Fender">
+            <img src="img/marcas/ibanez.jpg" alt="Ibanez">
+            <img src="img/marcas/korg.jpg" alt="Korg">
+            <img src="img/marcas/marshall.jpg" alt="Marshall">
+            <img src="img/marcas/peavey.jpg" alt="Peavey">
+            <img src="img/marcas/qsc.jpg" alt="QSC">
+            <img src="img/marcas/roland.jpg" alt="Roland">
+            <img src="img/marcas/shure.jpg" alt="Shure">
+            <img src="img/marcas/washburn.jpg" alt="Washburn">
+        </div>
+    </section>
+
+    <section class="catalog" id="catalog">
+        <div class="catalog-header">
+            <h2>Visita nuestro catálogo de productos</h2>
+           <a target="_blank" href="https://www.amprofmusic.cl/categoria-producto/prueba-principal/"><button class="catalog-button">Tienda Virtual</button></a> 
+        </div>
+        <div class="product-grid">
+            <div class="product-item">
+                <img src="img/catalogos/teclado.png" alt="Pianos y Teclados">
+                <p>Pianos y Teclados</p>
+            </div>
+            <div class="product-item">
+                <img src="img/catalogos/vientos.png" alt="Vientos">
+                <p>Vientos</p>
+            </div>
+            <div class="product-item">
+                <img src="img/catalogos/guitarras.png" alt="Guitarras">
+                <p>Guitarras</p>
+            </div>
+            <div class="product-item">
+                <img src="img/catalogos/accesorio-cuerdas.png" alt="Accesorios de Cuerdas">
+                <p>Accesorios Cuerdas</p>
+            </div>
+            <div class="product-item">
+                <img src="img/catalogos/microfonos.png" alt="Micrófonos">
+                <p>Micrófonos</p>
+            </div>
+            <div class="product-item">
+                <img src="img/catalogos/monitores.png" alt="Parlantes">
+                <p>Parlantes</p>
+            </div>
+            <div class="product-item">
+                <img src="img/catalogos/bajos.png" alt="Bajos">
+                <p>Bajos</p>
+            </div>
+            <div class="product-item">
+                <img src="img/catalogos/accesorios-amplificacion.png" alt="Accesorios Amplificación">
+                <p>Accesorios Amplificación</p>
+            </div>
+            <div class="product-item">
+                <img src="img/catalogos/otras-cuerdas.png" alt="Otros Cuerdas">
+                <p>Otros Cuerdas</p>
+            </div>
+            <div class="product-item">
+                <img src="img/catalogos/amplificadores.png" alt="Amplificadores">
+                <p>Amplificadores</p>
+            </div>
+            <div class="product-item">
+                <img src="img/catalogos/bateria.png" alt="Baterías y Percusión">
+                <p>Baterías y Percusión</p>
+            </div>
+            <div class="product-item">
+                <img src="img/catalogos/iluminacion.png" alt="Iluminación Profesional">
+                <p>Iluminación Profesional</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="contact-font" >Contacto</h2>
+    <div class="contact-container">
+        <ul class="contact-info">
+            <li class="contact-font" >Contacto: ventas@amprofmusic.cl</li>
+            <li class="contact-font" >Fono: 43-3227792</li>
+            <li class="contact-font" >Dirección: Colón 681, Los Ángeles</li>
+            <li class="contact-font" >Horarios: Lunes a viernes de 9:30 a 17:30 hrs, Sábados de 9:30 a 14:30 hrs</li>
+        </ul>
+        <form id="contact-form" action="send_email.php" method="POST">
+            <label class="contact-font" for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+    
+            <label class="contact-font" for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label class="contact-font" for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+    
+            <button class="contact-font" type="submit">Enviar</button>
+        </form>
+    </section>
+</div>
+<div class="social-media">
+    <a target="_blank" href="https://www.facebook.com/amprofmusic.storeonline"><i class="bi bi-facebook"></i></a>
+    <a target="_blank" href="https://www.instagram.com/amprofmusic_store/"><i class="bi bi-instagram"></i></a>
+
+</div>
+    <footer>
+        <p>&copy; 2024 AmProfMusic - Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="js/index.js"></script>
+    <script src="js/slider.js"></script>
+</body>
+</html>
