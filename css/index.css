@@ -65,7 +65,13 @@
             font-size: 48px;
             margin: 0;
         }
-
+        .store{
+            background-color: #222d4f;
+        }
+        .store h1{
+            color: white;
+            text-align: center;
+        }
         .hero p {
             font-size: 24px;
             margin-top: 10px;
@@ -116,7 +122,7 @@
         }
 
         footer {
-            background-color: #333;
+            background-color: #222d4f;
             color: white;
             text-align: center;
             padding: 15px 0;
@@ -125,7 +131,7 @@
         /* tienda fisica */
         .titulo-store {
             text-align: center;
-            color: rgb(23, 209, 209);
+            color: #fff;
         }
             .store {
                 padding: 20px;
@@ -145,6 +151,7 @@
                 max-width: 400px;
                 text-align: justify;
                 font-family: abhaya libre;
+                color: #fff;
             }
             .store-slider {
                 position: relative;
@@ -198,9 +205,13 @@
         }
 
         /* catalogo */
+        .catalog{
+            background-color: #222d4f;
+        }
         .catalog-header {
             text-align: center;
             margin-bottom: 20px;
+            color: #fff;
         }
         .catalog-button {
             background-color: #ff4081;
@@ -210,6 +221,9 @@
             cursor: pointer;
             border-radius: 5px;
             animation: none;
+        }
+        .product-item p{
+            color: #fff;
         }
         .product-grid {
             display: grid;
@@ -223,7 +237,7 @@
             border: 1px solid #ddd;
             border-radius: 5px;
             overflow: hidden;
-            background-color: #fff;
+            background-color: #222d4f;
             padding: 10px;
         }
         .product-item img {
@@ -239,7 +253,7 @@
 
         .contact {
             padding: 20px;
-            background-color: #555;
+            background-color: #fff;
             text-align: center;
         }
         .contact-container {
@@ -270,13 +284,13 @@
         #contact-form input, #contact-form textarea {
             width: 100%;
             padding: 10px;
-            border: 1px solid #ddd;
+            border: 1px solid #000;
             border-radius: 5px;
         }
         #contact-form button {
             padding: 10px;
             background-color: #ff4081;
-            color: white;
+            color: #fff;
             border: none;
             cursor: pointer;
             border-radius: 5px;
@@ -284,7 +298,7 @@
         }
 
         .contact-font{
-            color: #fff;
+            color: #000;
         }
 
         /* red social */
