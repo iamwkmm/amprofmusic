@@ -9,3 +9,4 @@ document.getElementById('contact-form').addEventListener('submit', function(even
 
     document.getElementById('contact-form').reset();
 });
+
